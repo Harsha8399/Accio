@@ -1,0 +1,11 @@
+
+.heading{ 
+  padding: 10px;
+  border-left-style: solid;
+  border-left-color: green;
+  background-color: purple;
+  font-size: 20px;
+  width: 200px;
+  border-left-width: 5px;
+  color:white;
+}

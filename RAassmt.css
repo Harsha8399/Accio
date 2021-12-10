@@ -1,0 +1,40 @@
+.options{
+    text-align: center;
+    margin-left: 200px;
+    margin-right: auto;
+    float: left;
+    max-width: 400px;
+}
+body{
+    background-color: rgba(128, 128, 128, 0.453);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.simg{
+
+    display: inline;;
+    
+    float: left;
+    margin-top: 60px; 
+    margin-bottom: 60px;
+    margin-left: 60px;  
+}
+.HousePlans{
+    
+    margin-top: 60px;
+    max-width: 150px;
+    text-align: center;
+
+}
+.green{
+    float: right;
+    text-align: center;
+    max-width: 150px;;
+}
+.right{
+    
+    
+    
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}

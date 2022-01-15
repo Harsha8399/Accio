@@ -1,0 +1,10 @@
+.label{
+    position: relative;
+    background-color: aquamarine;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 15px 0;
+    width:80px;
+    
+}

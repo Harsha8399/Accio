@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="advcalc.css">
+    <title>Document</title>
+
+</head>
+<body>
+    <!-- <div class="container">
+        <div id="display"></div>
+        <div class="buttons">
+            <div class="btn">C</div>
+            <div class="btn">/</div>
+            <div class="btn">*</div>
+            <div class="btn">&larr;</div>
+
+            <div class="btn">7</div>
+            <div class="btn">8</div>
+            <div class="btn">9</div>
+            <div class="btn">-</div>
+
+            <div class="btn">4</div>
+            <div class="btn">5</div>
+            <div class="btn">6</div>
+            <div class="btn">+</div>
+
+            <div class="btn">1</div>
+            <div class="btn">2</div>
+            <div class="btn">3</div>
+            <div class="btn">.</div>
+
+            <div class="btn">(</div>
+            <div class="btn">0</div>
+            <div class="btn">)</div>
+            <div class="btn" id="equal">=</div>
+        </div>
+    </div> -->
+
+    <div class="container">
+        <div id="display"></div>
+        <div class="buttons">
+            <div class="btn" onclick="clearx('C')">C</div>
+            <div class="btn" onclick="clickingx('/')" >/</div>
+            <div class="btn" onclick="clickingx('*')">*</div>
+            <div class="btn" onclick="backx()">&larr;</div>
+
+            <div class="btn" onclick="clickingx('7')">7</div>
+            <div class="btn" onclick="clickingx('8')">8</div>
+            <div class="btn" onclick="clickingx('9')">9</div>
+            <div class="btn" onclick="clickingx('-')">-</div>
+
+            <div class="btn" onclick="clickingx('4')">4</div>
+            <div class="btn" onclick="clickingx('5')">5</div>
+            <div class="btn" onclick="clickingx('6')">6</div>
+            <div class="btn" onclick="clickingx('+')">+</div>
+
+            <div class="btn" onclick="clickingx('1')">1</div>
+            <div class="btn" onclick="clickingx('2')">2</div>
+            <div class="btn" onclick="clickingx('3')">3</div>
+            <div class="btn" onclick="clickingx('.')">.</div>
+
+            <div class="btn" onclick="clickingx('(')">(</div>
+            <div class="btn" onclick="clickingx('0')">0</div>
+            <div class="btn" onclick="clickingx('<')">)</div>
+            <div class="btn" id="equal" onclick="evalx()">=</div>
+        </div>
+    </div>
+    <script src="advcalc.js"></script> 
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=<script>, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function swap(arr,x, y) {
+        let temp = x
+        x = y
+        y = temp
+        return x, y
+      }
+
+      function bubblesort(arr) {
+        for (let i = 0; i < arr.length; i++) {
+          for (let j = i + 1; i < arr.length - 1; j++) {
+            if (arr[j + 1] < arr[j]) {
+              swap(arr,j + 1,j);
+            }
+          }
+        }
+        return arr;
+      }
+
+      arr = [3, 7, 85, 34, 9, 26, 94, 6, 88, 33, 48];
+      console.log(bubblesort(arr));
+    </script>
+  </body>
+</html>

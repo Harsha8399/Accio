@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(183, 125, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+.search{
+    position: relative;
+    height: 50px;
+}
+
+.btn:focus, .input:focus{
+    outline: none;
+}
+
+
+
+.btn{
+    background-color: azure;
+    border: 0;
+    position: absolute;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    
+}
+
+.search.active .input{
+    width:200px;
+}
+
+.search.active .btn{
+    transform: translateX(200px);
+    /* becomes bigger in x axis */
+}

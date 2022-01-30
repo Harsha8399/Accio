@@ -45,14 +45,28 @@
 // arr=[3,7,85,34,9,26,94,6,88,33,48]
 // console.log(bubblesort(arr))
 
-let arr = [2,5,7,4,1,9]
-arr = arr.map(function rec(value){
+// let arr = [2,5,7,4,1,9]
+// arr = arr.map(function rec(value){
     
-    while(value<2){
-        return value;
+//     while(value<2){
+//         return value;
+//     }
+//     let sum=0
+//     sum=rec(value-1)+rec(value-2)
+//     return sum
+// })
+// console.log(arr)
+
+arr=[3,7,85,34,9,26,94,6,88,33,48,7]
+let isprime = arr.some((num)=>{
+    
+    let flag=true
+    for(let i=2;i<num;i++){
+        if(num%i==0)
+            flag=false
+            break
+        
     }
-    let sum=0
-    sum=rec(value-1)+rec(value-2)
-    return sum
+    return flag
 })
-console.log(arr)
+console.log(isprime)

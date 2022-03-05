@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&family=Oswald:wght@300&family=Questrial&family=Slabo+27px&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    font-family: "Montserrat",sans-serif;
+    overflow: hidden;
+
+}
+
+.App{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+header h1{
+    margin: 50px 0 30px 0;
+}
+
+.pads{
+    width: 100%;
+    display: flex;
+    background: antiquewhite;
+}
+.pads > div{
+    height: 100px;
+    width: 100px;
+    flex: 1;
+}
+
+.pad1{
+    background: #60d394;;
+}
+
+.pad2{
+    background: #d36060;
+}
+
+.pad3{
+    background: #c060d3;
+}
+
+.pad4{
+    background:  #d3d160;
+}
+
+.pad5{
+    background:  #606bd3;
+}
+
+.pad6{
+    background:  #60c2d3;
+}
+
+.balls > div{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    bottom: 0%;
+    left: 20%;
+    transform: scale(1);
+    bottom: 0%;
+    z-index: -1;
+}
+
+@keyframes jump{
+    0%{
+        bottom: 0%;
+        left: 20%;
+    }
+    50%{
+        bottom: 50%;
+        left: 50%;
+    }
+    100%{
+        bottom: 0%;
+        left: 80%;
+    }
+}
+
+
+
+

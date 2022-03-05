@@ -1,4 +1,4 @@
-const pScore = document.getElementById("playerScore")
+const pScore = Document.getElementById("playerScore")
 const cScore = document.getElementById("computerScore")
 const playerSelect = document.getElementById("playerSelect")
 const compSelect = document.getElementById("computerSelect")

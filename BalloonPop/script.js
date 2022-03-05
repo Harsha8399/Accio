@@ -1,6 +1,5 @@
 const container = document.querySelector(".balloon-container")
-const resetGame = document.querySelector("button")
-
+const resetGame = document.querySelector(".button")
 
 const numBallons=25
 let popped = 0
@@ -17,7 +16,7 @@ for(let i=1;i<=numBallons;i++){
             popped++;
         }
         divE1.style.backgroundColor = "transparent"
-        checkAllPopped()
+        checkifAllPopped()
     })
     container.appendChild(divE1)
 }
@@ -30,7 +29,7 @@ function getColor(){
     return "#"+color()+color()+color()
 }
 
-function checkAllPopped(){
+function checkifAllPopped(){
     if(popped===25){
         let message = document.querySelector(".zero-balloon")
         message.style.display = "block"

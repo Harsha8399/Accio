@@ -1,3 +1,64 @@
+<<<<<<< HEAD
+const api={
+    url:"https://api.openweathermap.org/data/2.5/",
+    apikey:"c16518ae33e69cd92ecb529fad7994dc"
+}
+// var inputval = document.querySelector('#cityinput')
+// var btn = document.querySelector('#add');
+// var city = document.querySelector('#cityoutput')
+// var descrip = document.querySelector('#description')
+// var temp = document.querySelector('#temp')
+// var wind = document.querySelector('#wind')
+
+// apik = "c16518ae33e69cd92ecb529fad7994dc"
+// //kelvin to celcious
+// function convertion(val){
+//     return (val - 273).toFixed(2)
+// }
+// //fetch
+//     btn.addEventListener('click', function(){
+//         fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputval.value+'&appid='+apik)
+//         .then(res => res.json())
+//          //.then(data => console.log(data))
+//         .then(data => {
+//             var nameval = data['name']
+//             var descrip = data['weather']['0']['description']
+//             var tempature = data['main']['temp']
+//             var wndspd = data['wind']['speed']
+
+//             city.innerHTML=`City: ${nameval}`
+//             temp.innerHTML = `Temperature: ${ convertion(tempature)} C`
+//             description.innerHTML = `Conditions: ${descrip}`
+//             wind.innerHTML = `Wind Speed: ${wndspd} km/h`
+
+//         })
+//         .catch(err => alert('You entered Wrong city name'))
+//     })
+
+const cityInput = document.getElementById('cityinput')
+const btn  = document.getElementById('add')
+const description = document.getElementById('description')
+const temp = document.getElementById('temp')
+const wind = document.getElementById('wind')
+const city = document.getElementById('cityoutput')
+
+btn.addEventListener('click',() =>{
+    fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputval.value+'&appid='+api.apikey)
+    .then(response => response.json())
+    .then(data => {
+        var name = data['name']
+        var descrip = data['weather']['0']['description']
+        var tempr = data['main']['temp']
+        var wndspd = data['wind']['speed']
+
+        city.innerHTML = `City: ${name}`
+        description.innerHTML = `Description: ${descrip}`
+        temp.innerHTML = `Temperature: ${tempr}`
+        wind.innerHTML = `Wind: ${wndspd}`
+
+    })
+})
+=======
 // const api={
 //     url:"https://api.openweathermap.org/data/2.5/",
 //     apikey:"c16518ae33e69cd92ecb529fad7994dc"
@@ -36,3 +97,4 @@ function convertion(val){
         })
         .catch(err => alert('You entered Wrong city name'))
     })
+>>>>>>> 2d46c5e385b1dcda0cd65a352fbd8c3ef039e543

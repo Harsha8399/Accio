@@ -4,10 +4,6 @@ const playbutton = document.getElementById("Playbutton")
 const pausebutton = document.getElementById("Pausebutton")
 const resetbutton = document.getElementById("Stopbutton")
 
-
-
-
-
 function startStopwatch(){
     showButton("PAUSE")
 }

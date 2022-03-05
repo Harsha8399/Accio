@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html,body{
     height: 100%;
 }
@@ -17,3 +18,24 @@ html,body{
     height: 250px;
 }
 
+=======
+html,body{
+    height: 100%;
+}
+
+
+.fa-hand-rock, .fa-hand-paper, .fa-hand-scissors{
+    font-size: 4rem;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+/* .boards,.select{
+    display: none;
+} */
+
+#playerSide,#computerSide{
+    height: 250px;
+}
+
+>>>>>>> 2d46c5e385b1dcda0cd65a352fbd8c3ef039e543

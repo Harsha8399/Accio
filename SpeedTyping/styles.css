@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* /* *{
     box-sizing: border-box;
 }
@@ -146,3 +147,75 @@ body{
 
 
 
+=======
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 70vh;
+    margin: 0;
+    
+    background-color: #39395f;
+}
+
+.timer{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #70be52;
+    /* padding-top: 100px; */
+    font-weight: 300;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.quote-display{
+    margin-top: 20px;
+    font-weight: 200;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: #eb6b40;
+}
+
+.quoteInput{
+    margin-top: 10px;
+    /* border-radius: 10%; */
+    height: 100%;
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 2rem 2rem 2rem 2rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6%;
+    margin-bottom: 20px;
+
+}
+.container{
+    background-color: #e1eedd;
+    border-radius: 0.5rem ;
+    margin-top: 6rem;
+}
+
+.timer{
+    position: absolute;
+    top: 3rem;
+    /* margin-bottom: 1 rem; */
+}
+
+.quoteInput:focus{
+    border: solid black;
+}
+
+.correct{
+    color: lightgreen;
+}
+
+.incorrect{
+    color: red;
+}
+>>>>>>> 2d46c5e385b1dcda0cd65a352fbd8c3ef039e543

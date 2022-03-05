@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     box-sizing: border-box;   
 }
@@ -43,3 +44,50 @@ h1{
 
 
 
+=======
+*{
+    box-sizing: border-box;   
+}
+
+body{
+    background-color: yellowgreen;
+    font-family: fantasy;
+}
+
+#main-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100vw;   
+    /* flex-flow: column; */
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-item{
+    background-color: bisque;
+    text-align: center;
+    color: blueviolet;
+    cursor: pointer;
+    padding: 10px 10px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.box{
+    background-color: aliceblue;
+    height: 25%;
+    width: 25%;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+
+
+>>>>>>> 2d46c5e385b1dcda0cd65a352fbd8c3ef039e543

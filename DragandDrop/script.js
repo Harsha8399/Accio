@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // const listItems = document.querySelectorAll('.list-item')
 // const boxes = document.querySelectorAll('.box')
 

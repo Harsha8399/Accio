@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-const app=()=>{
     const song=document.querySelector(".song")
     const play=document.querySelector(".play")
     const outline=document.querySelector(".moving-outline circle")
@@ -78,7 +76,6 @@ song.ontimeupdate=() => {
 }
 
 =======
-const app=()=>{
     const song=document.querySelector(".song")
     const play=document.querySelector(".play")
     const outline=document.querySelector(".moving-outline circle")
@@ -156,5 +153,3 @@ song.ontimeupdate=() => {
 }
 }
 
->>>>>>> 2d46c5e385b1dcda0cd65a352fbd8c3ef039e543
-app();

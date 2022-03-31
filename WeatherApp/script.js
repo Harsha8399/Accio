@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 const api={
     url:"https://api.openweathermap.org/data/2.5/",
     apikey:"c16518ae33e69cd92ecb529fad7994dc"

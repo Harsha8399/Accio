@@ -15,9 +15,9 @@ let fakeDuration = 600;
 
 outline.style.strokeDashoffset = outlineLength;
 outline.style.strokeDasharray = outlineLength;
-timeDisplay.textContent = `${Math.floor(fakeDuration / 60)}:${Math.floor(
+timeDisplay.textContent = `${Math.floor(fakeDuration / 60)}`:`${Math.floor(
   fakeDuration % 60
-)};
+)}`;
 
 //pick diff sounds
 sounds.forEach(sound => {

@@ -1,0 +1,140 @@
+body, html {
+    height: 100%;
+}
+body {
+    background-image: url(https://i.pinimg.com/originals/0e/50/c2/0e50c2395ce120082508aa6ac80ef16b.jpg
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    font-family: sans-serif;
+}
+.topnav-right , .topnav-right a:hover,.solid-btn:hover,.mid-btn:hover {
+    color: #c0392b;
+    font-weight: bold;
+    cursor: pointer;
+}
+.solid-btn:hover,.mid-btn:hover{
+    background-color: rgb(137, 207, 240);
+}
+
+.topnav{
+    margin-top: 20px;
+}
+
+h3{
+    margin-left: 15%;
+}
+.logo-title{
+    display:inline;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+
+} 
+.logo-title i{
+    padding-right:20px;
+}
+.logo-title span{
+    font-family: Helvetica;
+    margin-left: 20%;
+    padding-left:20px;
+}
+.topnav-right{
+    display:flex;
+    float:right;
+    text-align: center;
+    align-items: space-between;
+    width: 30%;
+    padding: auto;
+    margin-top: auto;
+    margin-right: 200px ;
+}
+
+.solid-btn{
+    margin-left: 30px;
+    width: fit-content;
+    text-align: center;
+}
+.leftnav{
+    float: left;
+}
+.topnav-right a {
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 15px;
+    transition: all .3s ease-in-out;
+}
+
+td{
+    align-items: center;
+    padding:0 10px 0  0;
+    text-align: center;
+    margin: auto;
+}
+.heading{
+    color: #1589FF; 
+    text-align: center;
+    line-height: 50%;
+    margin-top: 15%;
+    margin-right: 23%;
+    align-items: center;
+    position: absolute;
+    margin-left: 15%;
+}
+button {
+    background-color: #1589FF; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+.solid-btn{
+    font-weight: bold;
+}
+.sub-heading{
+    position: relative;
+    margin-right:25%;
+    margin-left: 5%;
+    margin-top: 12%;
+    padding-top: 100px;
+    color: #1589FF;
+}
+.mid-btn{
+    position: relative;
+    text-align: center;
+    margin-left: 15%;font-weight: bold;
+}
+table{
+    margin-top: 12px;
+}
+.button:hover {
+    background-color: rgb(137, 207, 240);
+}
+
+th{
+    color: #1589FF;
+    margin: auto;
+    padding: 0 10px 0 0;
+    margin-top: 15px;
+}
+
+a{
+    width: 20%;
+    align-items: space-between;
+}
+footer {
+    position: fixed;
+    height: 10%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 20%;
+  }
